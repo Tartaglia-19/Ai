@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixelmon Quest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="game-panel">
+        <h1>Pixelmon Quest</h1>
+        <canvas id="game" width="640" height="480" aria-label="Pixelmon Quest game canvas"></canvas>
+        <p class="controls">
+          Move: <kbd>WASD</kbd> / <kbd>Arrow Keys</kbd> · Interact: <kbd>E</kbd> · Accept/Continue: <kbd>Enter</kbd>
+        </p>
+      </section>
+      <aside class="hud">
+        <section>
+          <h2>Story</h2>
+          <p id="story-text">Become the island's greatest trainer by helping townsfolk and defeating gym leaders.</p>
+        </section>
+        <section>
+          <h2>Active Mission</h2>
+          <p id="active-mission">Talk to Professor Pine in Leafroot Town.</p>
+        </section>
+        <section>
+          <h2>Mission Log</h2>
+          <ul id="mission-log"></ul>
+        </section>
+        <section>
+          <h2>Dialog</h2>
+          <div id="dialog-box">Welcome to Pixelmon Quest! Find Professor Pine to get started.</div>
+        </section>
+      </aside>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>

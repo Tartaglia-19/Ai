@@ -1,0 +1,9 @@
+{
+  "name": "pixelmon-quest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pokémon-inspired 2D browser game that runs from static hosting",
+  "scripts": {
+    "start": "node serve.js"
+  }
+}
